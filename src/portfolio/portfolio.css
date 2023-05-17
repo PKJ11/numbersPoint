@@ -1,0 +1,35 @@
+.Portfolio{
+    display: flex;
+ align-items: center;
+ justify-content: center;
+
+flex-direction: column;
+height: 70vh;
+}
+
+.Portfolio span:nth-child(1){
+    font-size: 2rem;
+    font-weight: bold;
+    color:#242D49;
+}
+
+.Portfolio span:nth-child(2){
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FCA61F;
+}
+
+.Portfolio .Swiper{
+  overflow: visible !important;
+}
+
+.portfolio-slider .swiper-slide{
+    width: 13rem;
+}
+
+.Portfolio img{
+    width: 19rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0,0,0,0.25));
+    border-radius: 19px;
+}
+
